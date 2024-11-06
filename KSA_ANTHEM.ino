@@ -1,6 +1,20 @@
+/* 
+KSA Anthem using arduino
+By Abdullah Binsalman
+
+Components:
+- Arduino
+- Speaker
+- LCD (Optional)
+
+*/
+
+//Optional
 #include <LiquidCrystal_I2C.h>  //https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
 LiquidCrystal_I2C lcd(0x27,16,2);  // LCD HEX address 0x3F -- change according to yours
 
+
+// Notes Definiton
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
